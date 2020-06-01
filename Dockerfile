@@ -4,7 +4,7 @@ RUN apt-get install -y wget
 
 RUN cd /
 
-RUN wget https://mtrror-hk.koddos.net/apache/tomcat/tomcat-7/v7.0.104/bin/apache-tomcat-7.0.104.tar.gz 
+RUN wget http://ftp.cuhk.edu.hk/pub/packages/apache.org/tomcat/tomcat-7/v7.0.104/bin/apache-tomcat-7.0.104.tar.gz
 
 RUN tar zxvf apache-tomcat-7.0.104.tar.gz
 
